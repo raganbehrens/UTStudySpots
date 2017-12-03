@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+project '/Users/jorgemunoz/Documents/XcodeProjects/cs378app/UTStudySpots/UTStudySpots.xcodeproj'
+
+target 'UTStudySpots' do
+pod 'Alamofire', '~> 3.1.2'
+end
